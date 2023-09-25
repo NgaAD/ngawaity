@@ -1,0 +1,2937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDN</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/fontawesome/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+</head>
+<body>
+   <div class="app">
+    <header id = "header">
+        <div class="cb_container">
+            <div class="cb_navbar">
+                    <ul class="header_navbar-list">
+                        <li class="header_navbar-item header__navbar-item--separate"> Kênh người bán</li>
+                        <li class="header_navbar-item header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng
+                            <div class="navbar_qr">
+                                <img src="./img/QR.png" alt="" class="navbar_qr-img">
+                            </div>
+                        </li>
+                        <li class="header_navbar-item"> Kết nối
+                        </li>
+                        
+                    </ul>
+                    <ul class="header_navbar-list">
+                        <div class="header_navbar-link">
+                        <li class="header_navbar-item-link">
+                            <i class='bx bx-bell'></i> 
+                            <span>Thông báo</span>
+                            <div class="header_notify">
+                                <header class="header_notify-header">
+                                    Thông báo mới nhận
+                                </header>
+                                <ul class="header_notify-list">
+                                    <li class="header_notify-item">
+                                        <a href="" class="header_notify-link">
+                                            <img src="./img/ip14v.png" alt="" class="header_notify-img">
+                                            <div class="header_notify-info">
+                                                <span class="header_notify-name">Điện thoại Iphone 13 chính hãng</span>
+                                                <span class="header_notify-descriotion">Một lần sử dụng vạn lần mê</span>
+                                            </div>
+                                        </a>
+                                        <li class="header_notify-item">
+                                            <a href="" class="header_notify-link">
+                                                <img src="./img/ip14v.png" alt="" class="header_notify-img">
+                                                <div class="header_notify-info">
+                                                    <span class="header_notify-name">Điện thoại Iphone 13 chính hãng</span>
+                                                    <span class="header_notify-descriotion">Một lần sử dụng vạn lần mê</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header_notify-item">
+                                            <a href="" class="header_notify-link">
+                                                <img src="./img/ip14v.png" alt="" class="header_notify-img">
+                                                <div class="header_notify-info">
+                                                    <span class="header_notify-name">Điện thoại Iphone 13 chính hãng</span>
+                                                    <span class="header_notify-descriotion">Một lần sử dụng vạn lần mê</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </li>
+                                </ul>
+                                <footer class="header_notify-footer">
+                                    <a href="" class="header_notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header_navbar-item-link">
+                            <i class='bx bx-help-circle'></i>
+                             <span>Trợ giúp</span>
+                            </li>
+                        <li class="header_navbar-item-link">
+                            <i class='bx bx-user'></i>
+                            <span>Tài khoản</span>
+                            <ul class="header_navbar-user-menu">
+                                <li class="header_navbar-user-item user-login">
+                                    <span>Đăng nhập
+                                    <i class='bx bx-log-in'></i>
+                                    </span>
+                                </li>
+                                <li class="header_navbar-user-item header_navbar-user-item--separate user-register">
+                                    <span href="">Đăng ký</span>
+                                </li>
+                            </ul>
+                        </li>
+                        </div>
+                    </ul>
+
+            </div>
+            <div class="cb_header">
+                <div class="cb_header_section1">
+                    <div class="cb_header-logo">
+                        <span> TECHZONE</span>
+                    </div>
+                </div>
+                <div class="cb_header_section2">
+                        <div class="cb_header-container">
+                            <div class="cb_header-searchbar">
+                                <input  type="text" class="input-bar" placeholder="Bạn cần tìm gì">
+                                <button class="button-bar">
+                                    <i class="button-bar-icon fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div class="cb_header_section3">
+                    <div class="cb_section3-container">
+                        <a href="#" class="cb_section3-container-link">
+                            <div class="address_link">
+                                <i class="fa fa-phone address_link-icon" ></i>
+                            </div>
+                            <div class="address">
+                                <span>Kiểm tra</span><br/>
+                                <span class="phone_link"> Đơn hàng</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cb_section3-container">
+                        <div class="cb_section3-container-cart">
+                            <div class="address_link">
+                                <i class="fa fa-cart-plus address_link-icon"></i>
+                                <div class="header_cart-list">
+                                    <h4 class="header-cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header_cart-list-item">
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="header_cart-item">
+                                            <img src="./img/imgtb/tb2.jpg" alt="" class="header_cart-img">
+                                            <div class="header_cart-item-info">
+                                                <div class="header_cart-item-head">
+                                                    <h5 class="header_cart-item-name">
+                                                        Máy tính xách tay
+                                                    </h5>
+                                                    <div class="header_cart-item-price-wrap">
+                                                        <span class="header_cart-item-price">
+                                                            17.000.090đ
+                                                        </span>
+                                                        <span class="header_cart-item-multiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header_cart--item-qnt">
+                                                            2
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                    <div class="header_cart-item-body">
+                                                        <span class="header_cart-item-description">
+                                                            Phân loại đen
+                                                        </span>
+                                                        <span class="header_cart-item-remove"> 
+                                                            Xóa
+                                                            <i class='header_cart-item-icon bx bx-trash'></i>
+                                                        </span>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="" class="header_cart-view-cart">Xem giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="address">
+                                <span>Chi tiết</span><br/>
+                                <span class="phone_link">Giỏ hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main-container">
+        <div class="cb-container">
+            <div class="cb_tip">
+                <span id="dot">
+                    <img src="//clickbuy.com.vn/clipse.svg" alt="clipse">
+                </span>
+                <div class="cb-textwidget">
+                    <p><a href="https://clickbuy.com.vn/samsung-galaxy-uu-dai-cuc-khung/" target="_blank" rel="noopener"><strong><span style="color: #ff0000;">SAMSUNG SIÊU SALE – TUNG DEAL BẤT NGỜ</span></strong></a></p>
+                </div>
+            </div>
+            <div class="cb_row">
+                <div class="cb-slider">
+                    <div class="cb_menu_container">
+                        <ul class="menu-list">
+                            <li class="menu-list_item nav_first">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-mobile-alt'></i>
+                                    </div>
+                                    <span>Điện thoại</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Vivo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-tab'></i>
+                                    </div>
+                                    <span>Tablet</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-laptop'></i>
+                                    </div>
+                                    <span>Laptop</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bxs-watch'></i>
+                                    </div>
+                                    <span>Đồng hồ</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-headphone'></i>
+                                    </div>
+                                    <span>Phụ kiện</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class="fa fa-wrench"></i>
+                                    </div>
+                                    <span>Sữa chữa</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-chat'></i>
+                                    </div>
+                                    <span>Tin công nghệ</span>
+                                </a>
+                                <div class="sub-container">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li class="menu-list_item nav_last">
+                                <a href="#" class="menu-item_link">
+                                    <div class="item-icon">
+                                        <i class='bx bx-search'></i>
+                                    </div>
+                                    <span>Góc thủ thuật</span>
+                                </a>
+                                <div class="sub-container rs_g">
+                                    <div class="sub-menu">
+                                        <div class="sub-menu-d1">
+                                            <h4>Chọn theo hãng</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href="" class="sub-menu_product">Samsung</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Apple</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Xiaomi</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Oppo</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Nokia</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Realme</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Google</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                            <div class="sub-menu-d1">
+                                                <h4>Chọn theo mức giá</h4>
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Dưới 3 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 3 - 7 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 7 - 10 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Từ 10 - 15 triệu</a>
+                                                    </li>
+                                                    <li class="sub-menu-list_item">
+                                                        <a href=""class="sub-menu_product">Trên 15 triệu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        <div class="sub-menu-d1">
+                                            <h4>Điện thoại nổi bật</h4>
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Iphone 13 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S22 Siries</a>
+                                                </li>
+                                                <li class="sub-menu-list_item">
+                                                    <a href=""class="sub-menu_product">Galaxy S21 Siries</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="cb_slider_container">
+                        <div class="slider-container">
+                            <div class="slider-item">
+                                <img class="imgId active" src="https://tse4.mm.bing.net/th?id=OIP.vIaM5WNZ9V6pnMkkw3CNcgHaEK&pid=Api&P=0" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="imgId" src="https://cdn.hoanghamobile.com/i/home/Uploads/2023/05/08/banner-xa-kho-laptop-01.png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="imgId" src="https://clickbuy.com.vn/uploads/2023/05/slide.png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="imgId" src="https://clickbuy.com.vn/uploads/2023/04/slide-chao-he-2023-quay-vong-quay-trung-thuong-01-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-wrapper_banner">
+                            <img src="./img/bannerM.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cb_banner-container">
+                    <div class="banner_container">
+                        <h3 class="cb_banner-title">Khuyến mãi nổi bật</h3>
+                        <div class="boxes">
+                            <img src="./img/bannerIP.png" alt="">
+                        </div>
+                        <div class="boxes">
+                            <img src="./img/bannerH.png" alt="">
+                        </div>
+                        <div class="boxes">
+                            <img src="./img/bannerW.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cb_row">
+                <div class="row-container">
+                    <div class="header_sale">
+                            <img src="./img/sale.png" alt="">
+                            <div class="cb_hot-sale">
+                                <div id="blog_sale">
+                                    <span class="title-item">Giờ</span>
+                                    <div class="blog_count-time">
+                                        <span id="hours">0 0</span>
+                                    </div>
+                                </div>
+                                <div id="blog_sale">
+                                    <span class="title-item">Phút</span>
+                                    <div class="blog_count-time">
+                                        <span id="minutes">0 0</span>
+                                    </div>
+                                </div>
+                                <div id="blog_sale">
+                                    <span class="title-item">Giây</span>
+                                    <div class="blog_count-time">
+                                        <span id="seconds">0 0</span>
+                                    </div>
+                                </div>
+                            </div>  
+                    </div>
+                    <div class="row-content">
+                        <div class="content-product">
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro Max 128GB chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 18%</span>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14v.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 128GB chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 23%</span>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro Max 128GB chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 18%</span>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/watch1.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Apple Watch Ultra 4G 49MM | Titan Case With Trail Loop | Chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 28%</span>
+                                </div>
+                            </a><a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip11.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 11 64GB Chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 32%</span>
+                                </div>
+                            </a><a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ss.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>  Samsung Galaxy S23Ultra (5G) 8GB 256 GB Chính hãng</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">12.000.000đ</span>
+                                        <span class="product-item_price-current">13.000.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 25%</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cb_row">
+                <div class="row-container bg-container">
+                    <div class="row-content">
+                        <div class="content_title">
+                            <div class="title-text">
+                                <h3>ĐIỆN THOẠI NỔI BẬT</h3>
+                            </div>
+                            <div class="content_title-list">
+                                <a href="" class="content_title-link">
+                                    <ul class="title-list_item">
+                                        <li class="content_title-item">
+                                            <span>Ip 14 Series</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Ip 13 Series</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Apple Watch</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Macbook</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Ipad</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Ip 11</span>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-product rs-mg">
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro Max 128GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">26.790.000đ</span>
+                                        <span class="product-item_price-current">33.790.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 21%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>                        
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 256GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">29.590.000đ</span>
+                                        <span class="product-item_price-current">37.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 10%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14v.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 128GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">24.790.000đ</span>
+                                        <span class="product-item_price-current">31.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 30%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14v.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 256GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">27.790.000đ</span>
+                                        <span class="product-item_price-current">34.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 31%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip11.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 11 64GB Chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">9.990.000đ</span>
+                                        <span class="product-item_price-current">14.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 20%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="content-product rs-mg">
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro Max 128GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">26.790.000đ</span>
+                                        <span class="product-item_price-current">33.790.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 21%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>                        
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 256GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">29.590.000đ</span>
+                                        <span class="product-item_price-current">37.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 10%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14v.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 128GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">24.790.000đ</span>
+                                        <span class="product-item_price-current">31.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 30%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip14v.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 14 Pro 256GB chính hãng VNA</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">27.790.000đ</span>
+                                        <span class="product-item_price-current">34.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 31%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/ip11.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>iPhone 11 64GB Chính hãng VN/A</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">9.990.000đ</span>
+                                        <span class="product-item_price-current">14.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 20%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cb_row">
+                <div class="row-container bg-container">
+                    <div class="row-content">
+                        <div class="content_title">
+                            <div class="title-text">
+                                <h3>MÁY TÍNH NỔI BẬT</h3>
+                            </div>
+                            <div class="content_title-list display-scroll">
+                                <a href="" class="content_title-link">
+                                    <ul class="title-list_item display-scroll">
+                                        <li class="content_title-item">
+                                            <span>Asus</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Lenovo</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Macbook</span>
+                                        </li>
+                                        <li class="content_title-item">
+                                            <span>Thinkpad</span>
+                                        </li>
+                                    </ul>    
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-product rs-mg">
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap1.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Macbook Air 2022 13 inch Apple M2 8GB RAM 256GB SSD Chính Hãng VietNam</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">26.490.000đ</span>
+                                        <span class="product-item_price-current">32.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 21%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>                        
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap2.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>MacBook Pro 2022 13 inch Apple M2 8GB RAM 256GB SSD | Chính Hãng VietNam</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">29.990.000đ</span>
+                                        <span class="product-item_price-current">34.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 10%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap3.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Lenovo V15 G2 ITL 82KB00CHVN (Core™ i5-1135G7 | 8GB | 256GB | Intel Iris Xe | 15.6 inch FHD | Win 10 | Đen)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">14.190.000đ</span>
+                                        <span class="product-item_price-current">16.490.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 30%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap4.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Dell Inspiron 3505 (Y1N1T3) (R3 3250U 8GB RAM/256GB SSD/15.6 inch FHD/Win10+Office/Đen)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">13.890.000đ</span>
+                                        <span class="product-item_price-current">15.690.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 31%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap5.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Dell Inspiron N3511 (I5 1135G7 8GB RAM/256GB SSD/Iris Xe/15.6 inch FHD/Win10/Sliver/Nhập Khẩu)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">13.990.000đ</span>
+                                        <span class="product-item_price-current">14.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 20%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="content-product rs-mg">
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap1.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Macbook Air 2022 13 inch Apple M2 8GB RAM 256GB SSD Chính Hãng VietNam</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">26.490.000đ</span>
+                                        <span class="product-item_price-current">32.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 21%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>                        
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap2.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>MacBook Pro 2022 13 inch Apple M2 8GB RAM 256GB SSD | Chính Hãng VietNam</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">29.990.000đ</span>
+                                        <span class="product-item_price-current">34.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 10%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <span>Miễn phí ship</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap3.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Lenovo V15 G2 ITL 82KB00CHVN (Core™ i5-1135G7 | 8GB | 256GB | Intel Iris Xe | 15.6 inch FHD | Win 10 | Đen)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">14.190.000đ</span>
+                                        <span class="product-item_price-current">16.490.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 30%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <span>Miễn phí ship</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap4.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Dell Inspiron 3505 (Y1N1T3) (R3 3250U 8GB RAM/256GB SSD/15.6 inch FHD/Win10+Office/Đen)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">13.890.000đ</span>
+                                        <span class="product-item_price-current">15.690.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 31%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="content-product_item" href="">
+                                <div class="product_item-container">
+                                    <div class="product-item_img">
+                                        <img src="./img/lap5.png" alt="">
+                                    </div>
+                                    <div class="product-item_info">
+                                        <span>Laptop Dell Inspiron N3511 (I5 1135G7 8GB RAM/256GB SSD/Iris Xe/15.6 inch FHD/Win10/Sliver/Nhập Khẩu)</span>
+                                    </div>
+                                    <div class="product-item_price">
+                                        <span class="product-item_price-old">13.990.000đ</span>
+                                        <span class="product-item_price-current">14.990.000đ</span>
+                                    </div>
+                                    <div class="product-item_promotion">
+                                        <div class="product-item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn</p>
+                                    </div>
+                                    <div class="product-item_evaluate">
+                                        <div class="product-item_evaluate-icon">
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star' ></i>
+                                            <i class='bx bxs-star-half' ></i>
+                                        </div>
+                                        <span>(177 đánh giá)</span>
+                                    </div>
+                                </div>
+                                <div class="product-item_favorite">
+                                    <span>Giảm 20%</span>
+                                </div>
+                                <div class="product-item__sale">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="product-item__sale-off">
+                                    <span>Miễn phí ship</span>
+                                </div>
+                                <div class="hover_item">
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Bốc thăm trúng thưởng xe máy và nhiều phần quà hấp dẫn Bốc thăm trúng thưởng Xe máy Honda Vision điện thoại Samsung A34 , 3 chỉ vàng 9999 và nhiều quà tặng giá trị khác (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm thêm 600.000đ khi mở thẻ TP Bank Evo (xem chi tiết)</p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm 5% tối đa 500.000đ qua Kredivo (xem chi tiết) </p>
+                                    </div>
+                                    <div class="hover_list-km">
+                                        <div class="hover_item_promotion-km">
+                                            <span>KM</span>
+                                        </div>
+                                        <p>Giảm tới 250.000đ khi thanh toán qua Mua ngay tả sau HomePayLater (xem chi tiết)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cb_row">
+                <div class="row-container bg-container">
+                    <div class="row-content">
+                        <div class="content_title">
+                            <div class="title-text">
+                                <h3>DANH MỤC PHỤ KIỆN</h3>
+                            </div>
+                        </div>
+                        <div class="cb_accessories_container">
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-mouse'></i>
+                                    <span>Chuột máy tính</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bxl-apple'></i>
+                                    <span>Phụ kiện Apple</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-headphone'></i>
+                                    <span>Tai Nghe</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-mobile-alt'></i>
+                                    <span>Ốp lưng, bao da</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bxs-battery-charging'></i>
+                                    <span>Sạc dự phòng</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-aperture'></i>
+                                    <span>Camera</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bxs-keyboard'></i>
+                                    <span>Bàn phím</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-memory-card'></i>
+                                    <span>Thẻ nhớ, USB</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bxs-watch-alt' ></i>
+                                    <span>Đồng hồ</span>
+                                </div>
+                            </a>
+                            <a href="" class="cb_accessories_link">
+                                <div class="accssores_item">
+                                    <i class='accssores_item-icon bx bx-hdd'></i>
+                                    <span>Ổ cứng</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Layout -->
+    <footer class="footer">
+        <div class="cb_row-footer ex_finfo">
+            <div class="cb_row">
+                <div class="footer-policy">
+                    <ul>
+                        <li>
+                            <a href="chính sách bảo hành">Chính sách bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="bảo hành Xiaome chính hãng">Bảo hành Xiaome chính hãng</a>
+                        </li>
+                        <li>
+                            <a href="chính sách mua hàng online">Chính sách mua hàng online</a>
+                        </li>
+                        <li>
+                            <a href="mua hàng trả góp">Mua hàng trả góp</a>
+                        </li>
+                        <li>
+                            <a href="chính sách bảo mật thông tin khách hàng">Chính sách bảo mật thông tin khách hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-support">
+                    <p>Tổng đài hỗ trợ</p>
+                    <ul>
+                        <li>
+                            <span>Hotline bán hàng :</span><br>
+                            <a class="footer-support_tel" href="0378380046 | 0763040472">0378380046 | 0763040472</a>
+                        </li>
+                        <li>
+                            <span>Hotline hỗ trợ bảo hành, kỹ thuật :</span><br>
+                            <a class="footer-support_tel" href="1900000">1900000</a>
+                        </li>
+                        <li>
+                            <span>Hotline hỗ trợ phần mềm :</span> <br>
+                            <a class="footer-support_tel" href="1900019000">1900019000</a>
+                        </li>
+                    </ul>
+                    <a href="Tel: 19002900" class="support-feedback">
+                        Hotline phản ánh chất lượng dịch vụ: <br>
+                        <span>1900.2900</span>
+                    </a>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-address_select">   
+                        <input type="radio" id="mienbac" checked="" name="cb_area" value="location-hn">
+                        <label for="mienbac">
+                            Khu vực: 
+                            <br/>
+                            <strong>MIỀN BẮC</strong>
+                        </label>
+                        <input type="radio" id="mientrung" name="cb_area" value="location-dn">
+                        <label for="mienbac">
+                            Khu vực: 
+                            <br/>
+                            <strong>MIỀN TRUNG</strong>
+                        </label>
+                        <input type="radio" id="miennam" name="cb_area" value="location-hcm">
+                        <label for="mienbac">
+                            Khu vực: 
+                            <br/>
+                            <strong>MIỀN NAM</strong>
+                        </label>
+                    </div>
+                    <div class="cb_area_selection">
+                        <ul id="location-hn">
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                            <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                             <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                             <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                             <li data-location ="367 Cầu Giay, hà nội">
+                                <i class='bx bxs-map'></i>
+                                367 Cầu Giay, hà nội <br/>
+                                <a href="tel:0378380046" title="Hotline">
+                                    <strong>037.838.0046</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-pay">
+                    <h3>Thanh toán miễn phí</h3>
+                    <ul class="list_logo">
+                        <li>
+                            <img src="./img/pay/lg-visa.png" alt="">
+                            <img src="./img/pay/lg-master.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/pay/lg-jcb.png" alt="">
+                            <img src="./img/pay/lg-sspay.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/pay/lg-atm.png" alt="">
+                            <img src="./img/pay/lg-vnpay.png" alt="">
+                        </li>
+                    </ul>
+                    <div class="ft-certified">
+                        <a href="">
+                            <img src="./img/pay/lg-btc.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="ft-fcopyright">
+            <div class="container-text">
+                <p>© 2013 ~ 2023 - Công ty TNHH &amp; XNK ClickBuy. GPKD số 0106081880 do Sở KH &amp; ĐT Thành phố Hà Nội cấp ngày 20/6/2023</p>
+            </div>
+        </div>    
+        <div class="nav-social">
+            <ul>
+                <a href="">
+                    <li>
+                        <span>Zalo</span>
+                        <p class="zalo-text">Chát zalo</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <i class='icon-messenger bx bxl-messenger'></i>
+                        <p>Messege</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <i class="icon-phone fa fa-phone" aria-hidden="true"></i>
+                        <p>Gọi hotline</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+</div>
+<!-- Register form -->   
+<form action="">
+    <div class="modal js-register">
+        <div class="auth-form js-modal-container_register">
+            <div class="auth-form_container">
+                 <div class="auth-form_header">
+                     <h3 class="auth-form_heading">Đăng ký</h3>
+                     <span class="auth-form_switch-btn">Đăng nhập</span>
+                 </div>
+                 <div class="auth-form_form">
+                     <div class="auth-form_group ">
+                         <input id="username" type="text" class="auth-form_input" placeholder="Usename">
+                         <small></small>
+                         <span></span>
+                     </div>
+                     <div class="auth-form_form">
+                         <div class="auth-form_group ">
+                             <input id="email" type="email" class="auth-form_input" placeholder="Email / Số điện thoại của bạn">
+                             <small></small>
+                             <span></span>
+                         </div>
+                     <div class="auth-form_group ">
+                         <input id="password" type="password" class="auth-form_input" placeholder="Mật khẩu của bạn">
+                         <small></small>
+                         <span></span>
+                     </div>
+                     <div class="auth-form_group ">
+                         <input id="confirm-password" type="password" class="auth-form_input" placeholder="Nhập lại mật khẩu của bạn">
+                         <small></small>
+                         <span></span>
+                     </div>
+                 </div>
+                 <div class="auth-form_aside">
+                     <p class="auth-form_policy-text">
+                         Bằng việc đăng ký, bạn đã đồng ý với Techzone về
+                         <a href="" class="auth-form_text-link">Điều khoản dịch vụ</a> & 
+                         <a href="" class="auth-form_text-link">Chính sách bảo mật</a>  
+                     </p>
+                 </div>
+                 <div class="auth-form_controls">
+                     <button class="btn auth-form_control-back btn--normal">TRỞ LẠI</button>
+                     <button class="btn btn--primary">ĐĂNG KÝ</button>
+                     
+                 </div>
+             </div>
+            </div> 
+            <div class="auth-form_social">
+                <a href="" class="auth-form_socials--facebook btn btn--size-s btn--width-icon">
+                    <i class='auth-form_socials--icon bx bxl-facebook-circle'></i>
+                    <span class="auth-form_socials--title">Kết nối với Facebook</span>
+                </a>
+                <a href="" class="auth-form_social--google btn btn--size-s btn--width-icon">
+                    <i class='bx bxl-google' ></i>
+                    <span class="auth-form_socials--title">Kết nối với Google</span>
+                </a>
+            </div>
+         <div class="modal_close js-close_register">
+             <i class='bx bxs-x-circle'></i>
+            </div>  
+         </div>
+    </div>
+</form>
+<!-- Login form -->
+<form action="" id="login-form">
+    <div class="modal js-login">
+        <div class="auth-form js-modal-container_login">
+            <div class="auth-form_container">
+             <div class="auth-form_header">
+                 <h3 class="auth-form_heading">Đăng nhập</h3>
+                 <button class="auth-form_switch-btn">Đăng ký</button>
+             </div>
+             <div class="auth-form_form">
+                 <div class="auth-form_group">
+                     <input id="email-login" type="text" class="auth-form_input" placeholder="Email">
+                     <small></small>
+                     <span></span>
+                 </div>
+                 <div class="auth-form_group">
+                     <input id="password-login" type="password" class="auth-form_input" placeholder="Mật khẩu của bạn">
+                     <small></small>
+                     <span></span>
+                 </div>
+             </div>
+             <div class="auth-form_aside">
+                 <div class="auth-form_help ">
+                    <a href="" class="auth-form_help-link auth-form_help-forgot">
+                        Quên mật khẩu
+                    </a>
+                        <span class="auth-form_help-separate"></span>
+                    <a href="" class="auth-form_help-link">
+                        Cần trợ giúp?
+                    </a>
+                 </div>
+             </div>
+             <div class="auth-form_controls mg-80">
+                 <button class="btn auth-form_control-back btn--normal">TRỞ LẠI</button>
+                 <button class="btn btn--primary">ĐĂNG NHẬP</button>
+             </div>
+         </div>
+         <div class="auth-form_social">
+             <a href="" class="auth-form_socials--facebook btn btn--size-s btn--width-icon">
+                 <i class='auth-form_socials--icon bx bxl-facebook-circle'></i>
+                 <span class="auth-form_socials--title">Đăng nhập với Facebook</span>
+             </a>
+             <a href="" class="auth-form_social--google btn btn--size-s btn--width-icon">
+                 <i class='bx bxl-google' ></i>
+                 <span class="auth-form_socials--title">Đăng nhập với Google</span>
+             </a>
+         </div>
+     </div>
+    <div class="modal_close js-close_login">
+        <i class='bx bxs-x-circle'></i>
+    </div> 
+</div>
+</form>
+<!-- <div class="body_success">
+    <div class="toast">
+        <div class="toast_icon">
+            <i class='bx bxs-check-circle'></i>
+        </div>
+        <div class="tost_body">
+            <h3 class="toast_title"> Sucess</h3>
+            <p class="toast_msg">Đăng ký thành công</p>
+        </div>
+        <div class="toast_close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </div>
+</div> -->
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script src="./scripts/app.js"></script>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/register.js"></script>
+
+</body>
+</html>
